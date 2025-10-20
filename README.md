@@ -5,24 +5,21 @@ HelloCV
 一个基于C++实现的简单加密解密工具，支持文本和文件的加密解密操作。
 
 ## 项目结构
-
-```
-  tree
+```tree
 cppTest/
-├── includes/                 # 头文件目录
-│   ├── Crypto.h            # 加密解密类头文件
-│   ├── FileHandler.h       # 文件处理类头文件
-│   └── Menu.h              # 菜单界面类头文件
-├── src/                    # 源文件目录
-│   ├── main.cpp            # 主程序入口
-│   ├── Crypto.cpp          # 加密解密实现
-│   ├── FileHandler.cpp     # 文件处理实现
-│   └── Menu.cpp            # 菜单界面实现
-├── build/                  # 构建目录（编译后生成）
-├── CMakeLists.txt          # CMake构建配置文件
-├── README.md               # 项目说明文档
-└── links.md                # 语雀笔记链接汇总
-```
+├── includes/      # 头文件目录
+│   ├── Crypto.h       # 加密解密类头文件
+│   ├── FileHandler.h  # 文件处理类头文件
+│   └── Menu.h         # 菜单界面类头文件
+├── src/           # 源文件目录
+│   ├── main.cpp       # 主程序入口
+│   ├── Crypto.cpp     # 加密解密实现
+│   ├── FileHandler.cpp# 文件处理实现
+│   └── Menu.cpp       # 菜单界面实现
+├── build/         # 构建目录（编译后生成）
+├── CMakeLists.txt # CMake构建配置文件
+├── README.md      # 项目说明文档
+└── links.md       # 语雀笔记链接汇总
 
 ## 环境配置
 
