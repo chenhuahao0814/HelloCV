@@ -7,7 +7,6 @@ HelloCV
 ## 项目结构
 
 ```
-
 cppTest/
 ├── includes/                 # 头文件目录
 │   ├── Crypto.h            # 加密解密类头文件
@@ -20,9 +19,8 @@ cppTest/
 │   └── Menu.cpp            # 菜单界面实现
 ├── build/                  # 构建目录（编译后生成）
 ├── CMakeLists.txt          # CMake构建配置文件
-├── README.md              # 项目说明文档
-└── LINUX.md               # 语雀笔记链接汇总
-
+├── README.md               # 项目说明文档
+└── links.md                # 语雀笔记链接汇总
 ```
 
 ## 环境配置
@@ -37,11 +35,7 @@ cppTest/
 # Ubuntu/Debian 系统
 sudo apt update
 sudo apt install g++ cmake
-
-# CentOS/RHEL 系统
-sudo yum install gcc-c++ cmake
 ```
-
 构建项目
 
 使用 CMake 构建（推荐）
